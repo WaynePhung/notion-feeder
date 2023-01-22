@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "H 14 * * *" # 2PM PST
+    - cron: "0 2-30 * * * America/Los_Angeles" # 2:30PM PST
   workflow_dispatch:
 
 jobs:
